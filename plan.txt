@@ -1,14 +1,14 @@
 add calculators for:
 - *Cat curves
 - spreader bar width
-- hamock sizing
+- hamock sizing (i think i've got it added)
 - *cut list
 - *weight capacity
 - cord length
 - fabric weight and packed estimate
 - hanging angle and tree to tree distance
-- anchor hight and sag
-- *force on anchors/suspention
+x anchor hight and sag
+x *force on anchors/suspention
 - ridgeline length
 - diagonal lay / asymmetry
 - under/topquilt sizing

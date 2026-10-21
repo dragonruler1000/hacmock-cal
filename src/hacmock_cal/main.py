@@ -1,7 +1,9 @@
 from suspention import calc as scalc
+from catc import calc as catc
 
 calcs = {
-    "1": ("Suspension", scalc)
+    "1": ("Suspension", scalc),
+    "2": ("Cat curve", catc)
 }
 print("Hammock calculator")
 print("A calculator for most of your hammock needs")
