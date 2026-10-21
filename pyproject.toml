@@ -1,5 +1,5 @@
 [project]
-name = "hacmock-cal"
+name = "hacmmock-cal"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,7 +7,7 @@ authors = [
     { name = "dragonruler1000", email = "github@me.minecraftchest2.us" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = ["kivy[base] @ https://github.com/kivy/kivy/archive/master.zip"]
 
 [project.scripts]
 hacmock-cal = "hacmock_cal:main"

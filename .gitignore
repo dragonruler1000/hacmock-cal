@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# not sure if needed
+.kivy
+kivy-deps-build
