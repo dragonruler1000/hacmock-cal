@@ -1,0 +1,6 @@
+Add a calculator for cat curves
+add a calculator for spreader bar width
+add a calculator for hamock sizing
+add a way to export curves as instructions to draw the curves
+add a way to generate and export the cat curves as an image
+add a gui to replace the tui
