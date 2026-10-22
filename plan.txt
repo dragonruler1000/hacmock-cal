@@ -1,5 +1,5 @@
 add calculators for:
-- *Cat curves
+x *Cat curves
 - spreader bar width
 - hamock sizing (i think i've got it added)
 - *cut list
