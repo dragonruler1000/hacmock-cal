@@ -45,8 +45,8 @@ def plot_curve(points):
     plt.show()
 
 def calc():
-    cspan = ask_number("What is the span of the curve in in: ", 60)
-    cdepth = ask_number("What is the depth of the curve in in: ", 6)
+    cspan = ask_number("What is the span of the curve in in", 60)
+    cdepth = ask_number("What is the depth of the curve in in", 6)
 
     a, arc_length = caternary_params(cspan, cdepth)
 

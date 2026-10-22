@@ -2,11 +2,11 @@ import math
 from utils import ask_number
 
 def calc():
-    distance_ft = ask_number("Distane Between Anchors in feet. default = 14", 14)
-    hang_height_in = ask_number("Preferred Sit Height in inches. default = 18", 18)
-    weight_lb = ask_number("Weight in Hammock in lbs. default = 175", 175)
-    hang_angle_deg = ask_number("Angle in degrees between the suspension cord and the ground. enter angle between 10 to 60 degrees default = 30", 30)
-    ridgeline_len_ft = ask_number("Ridge line length in feet. default = 9", 9)
+    distance_ft = ask_number("Distane Between Anchors in feet.", 14)
+    hang_height_in = ask_number("Preferred Sit Height in inches.", 18)
+    weight_lb = ask_number("Weight in Hammock in lbs.", 175)
+    hang_angle_deg = ask_number("Angle in degrees between the suspension cord and the ground. enter angle between 10 to 60 degrees", 30)
+    ridgeline_len_ft = ask_number("Ridge line length in feet.", 9)
     theta = math.radians(hang_angle_deg)
     ancor_height_ft = round((hang_height_in + (distance_ft * 12/2) * math.tan(theta))/12, 2)
     suspension_len = round(((distance_ft - ridgeline_len_ft) *12)/(2*math.cos(theta)), 1)

@@ -12,3 +12,4 @@ wheels/
 # not sure if needed
 .kivy
 kivy-deps-build
+*.spec
