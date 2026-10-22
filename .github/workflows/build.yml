@@ -1,9 +1,8 @@
 name: Build and Release
 
 on:
-  push:
-    tags:
-      - 'c*'   # accepts both v1.0.0 and 1.0.0
+  release:
+    types: published
   workflow_dispatch:
 
 permissions:
