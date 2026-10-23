@@ -12,7 +12,7 @@ x *force on anchors/suspention
 - ridgeline length
 - diagonal lay / asymmetry
 - under/topquilt sizing
-- tarp sizing
+x tarp sizing
 x add a way to export curves as instructions to draw the curves
 x add a way to generate and export the cat curves as an image
 add a gui to replace the tui
