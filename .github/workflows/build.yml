@@ -37,7 +37,7 @@ jobs:
           pip install matplotlib
 
       - name: Build executable
-        run: pyinstaller --onefile src/hacmock_cal/main.py -c -n hammock-cal-${{ matrix.name }}
+        run: pyinstaller --onefile src/hacmock_cal/main.py -c -n hammock-calc-${{ matrix.name }}
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
