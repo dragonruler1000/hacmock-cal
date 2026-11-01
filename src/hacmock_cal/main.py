@@ -28,7 +28,7 @@ while loop >= 1:
     if choice in calcs:
         name, func = calcs[choice]
         print("loading " + name)
-        print(func())
+        func()
     elif choice == "q":
         loop= 0
     else:
