@@ -59,8 +59,8 @@ def calc():
     print(f"\n Arc length: {arc_length:.3f}")
 
     mode = input("Output (t = table, p = plot, b = both) [t]: )").strip().lower() or "t"
-    if mode in ("t", "b"):
-        plot_curve(points)
     if mode in ("p", "b"):
+        plot_curve(points)
+    if mode in ("t", "b"):
         print_table(points)
     return points
